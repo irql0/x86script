@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Lx">
+      <UniqueIdentifier>{d01e9b9e-769f-4d71-bb47-4dd783a352cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{99d501a8-4422-4361-a91b-360f0017b265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sp">
+      <UniqueIdentifier>{69844f2c-cf42-4e93-9b96-4794b252757c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lexsrc.c">
+      <Filter>Lx</Filter>
+    </ClCompile>
+    <ClCompile Include="initsp.c" />
+    <ClCompile Include="trace.c">
+      <Filter>Sp</Filter>
+    </ClCompile>
+    <ClCompile Include="assemble.c">
+      <Filter>Sp</Filter>
+    </ClCompile>
+    <ClCompile Include="operand.c">
+      <Filter>Sp</Filter>
+    </ClCompile>
+    <ClCompile Include="symbol.c">
+      <Filter>Sp</Filter>
+    </ClCompile>
+    <ClCompile Include="preprocess.c">
+      <Filter>Sp</Filter>
+    </ClCompile>
+    <ClCompile Include="mnemonic.c">
+      <Filter>Sp</Filter>
+    </ClCompile>
+    <ClCompile Include="pseudomnemonic.c">
+      <Filter>Sp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lx.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sp.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
